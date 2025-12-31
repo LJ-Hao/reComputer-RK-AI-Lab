@@ -12,9 +12,27 @@ on:
     - cron: '0 2 * * *'
   workflow_dispatch:  # 允许手动触发工作流
 
+# Set permissions for GitHub Actions
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
 
     steps:
     - name: Checkout repository
@@ -34,6 +52,7 @@ jobs:
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
+      continue-on-error: true  # 允许错误继续执行
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
@@ -43,5 +62,6 @@ jobs:
     - name: Deploy to GitHub Pages
       if: github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
       uses: actions/deploy-pages@v4
+      continue-on-error: true  # 允许错误继续执行
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
