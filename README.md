@@ -41,13 +41,13 @@ Rockchip-AI-Lab/
 │   │   │   ├── llm/        # Large Language Model content
 │   │   │   ├── ui/         # User Interface content
 │   │   │   └── vlm/        # Visual Language Model content
-│   │   ├── rk3568(3588)/         # Content for RK3568 chip
+│   │   ├── rk3576(3588)/         # Content for RK3576/3588 chip
 │   │   │   ├── cv/
 │   │   │   ├── llm/
 │   │   │   ├── ui/
 │   │   │   └── vlm/
 │   │   ├── rk1820.json     # RK1820 content index configuration
-│   │   └── rk3568.json     # RK3568 content index configuration
+│   │   └── rk3576(3588).json     # RK3576/3588 content index configuration
 │   ├── img/                # Image assets
 │   ├── js/                 # JavaScript files
 │   │   └── app.js          # Main application script
@@ -63,7 +63,7 @@ Rockchip-AI-Lab/
 
 ## 🤝 Contribute
 
-To run the project locally:
+Fork this project and run the project locally:
 
 >💡Note: Every time you modify the `src` folder, you need to run `npm run build` to rebuild.
 
