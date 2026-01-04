@@ -1,0 +1,22 @@
+{
+  "cv": [
+    "index.md",
+    "demo1.md",
+    "demo2.md"
+  ],
+  "llm": [
+    "index.md",
+    "demo1.md",
+    "demo2.md"
+  ],
+  "vlm": [
+    "index.md",
+    "demo1.md",
+    "demo2.md"
+  ],
+  "ui": [
+    "index.md",
+    "demo1.md",
+    "demo2.md"
+  ]
+}
