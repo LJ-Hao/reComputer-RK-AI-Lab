@@ -6,7 +6,7 @@
 
 
 <h3 align="center">
-  <a href="https://seeed-projects.github.io/Rockchip-AI-Lab/">
+  <a href="https://seeed-projects.github.io/reComputer-RK-AI-Lab/">
     reComputer RK AI Lab
   </a>
 </h3>
@@ -93,24 +93,24 @@ The website is automatically deployed to GitHub Pages using GitHub Actions when 
 ## 💞 Top contributors:
 
 <a href="https://github.com/Seeed-Projects/Rockchip-AI-Lab/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Seeed-Projects/Rockchip-AI-Lab" alt="contrib.rocks image" />
+  <img src="https://contrib.rocks/image?repo=Seeed-Projects/reComputer-RK-AI-Lab" alt="contrib.rocks image" />
 </a>
 
 ## 🌟 Star History
 
-![Star History Chart](https://api.star-history.com/svg?repos=Seeed-Projects/Rockchip-AI-Lab&type=Date)
+![Star History Chart](https://api.star-history.com/svg?repos=Seeed-Projects/reComputer-RK-AI-Lab&type=Date)
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/Seeed-Projects/Rockchip-AI-Lab.svg?style=for-the-badge
-[contributors-url]: https://github.com/Seeed-Projects/Rockchip-AI-Lab/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Seeed-Projects/Rockchip-AI-Lab.svg?style=for-the-badge
-[forks-url]: https://github.com/Seeed-Projects/Rockchip-AI-Lab/network/members
-[stars-shield]: https://img.shields.io/github/stars/Seeed-Projects/Rockchip-AI-Lab.svg?style=for-the-badge
-[stars-url]: https://github.com/Seeed-Projects/Rockchip-AI-Lab/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Seeed-Projects/Rockchip-AI-Lab.svg?style=for-the-badge
-[issues-url]: https://github.com/Seeed-Projects/Rockchip-AI-Lab/issues
-[license-shield]: https://img.shields.io/github/license/Seeed-Projects/Rockchip-AI-Lab.svg?style=for-the-badge
-[license-url]: https://github.com/Seeed-Projects/Rockchip-AI-Lab/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Seeed-Projects/reComputer-RK-AI-Lab.svg?style=for-the-badge
+[contributors-url]: https://github.com/Seeed-Projects/reComputer-RK-AI-Lab/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Seeed-Projects/reComputer-RK-AI-Lab.svg?style=for-the-badge
+[forks-url]: https://github.com/Seeed-Projects/reComputer-RK-AI-Lab/network/members
+[stars-shield]: https://img.shields.io/github/stars/Seeed-Projects/reComputer-RK-AI-Lab.svg?style=for-the-badge
+[stars-url]: https://github.com/Seeed-Projects/reComputer-RK-AI-Lab/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Seeed-Projects/reComputer-RK-AI-Lab.svg?style=for-the-badge
+[issues-url]: https://github.com/Seeed-Projects/reComputer-RK-AI-Lab/issues
+[license-shield]: https://img.shields.io/github/license/Seeed-Projects/reComputer-RK-AI-Lab.svg?style=for-the-badge
+[license-url]: https://github.com/Seeed-Projects/reComputer-RK-AI-Lab/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
 [Python.js]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
